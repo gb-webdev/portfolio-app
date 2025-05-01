@@ -1,8 +1,10 @@
+import Header from "./Header/page"
+
 const Home = () => {
   return (
-    <>
-      <h1 className="text-5xl">Temporary</h1>
-    </>
+    <div className="px-5 py-2">
+      <Header />
+    </div>
   )
 }
 
