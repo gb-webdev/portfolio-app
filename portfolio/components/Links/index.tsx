@@ -1,5 +1,5 @@
 import githubImg from "@/1-assets/github.png"
-import emailImg from "@/1-assets/email-img.png"
+import gmailImg from "@/1-assets/gmail.png"
 import linkedinImg from "@/1-assets/linkedin.png"
 import Image from "next/image"
 
@@ -14,7 +14,7 @@ const Welcome = () => {
                 <Image className="h-20 w-20" alt="LinkedIn icon" src={linkedinImg}  />
             </a>
             <a href="mailto:blundell.gp@gmail.com" target="blank">
-                <Image className="h-20 w-20" alt="Email icon" src={emailImg}  />
+                <Image className="h-20 w-20" alt="Email icon" src={gmailImg}  />
             </a>
         </div>
     )
