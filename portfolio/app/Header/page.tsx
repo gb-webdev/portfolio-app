@@ -7,7 +7,7 @@ import {
     SheetContent,
 } from '@/components/ui/sheet'
 import house from '@/1-assets/house.png'
-import menu from '@/1-assets/menu1.png'
+import menu from '@/1-assets/menu-bar.png'
 // import menuOpen from '@/1-assets/menu-open(1).png'
 
 // TODO: Add links for navigation

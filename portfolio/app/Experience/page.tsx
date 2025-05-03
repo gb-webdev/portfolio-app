@@ -1,17 +1,25 @@
-import Image from 'next/image'
-
+import { Card } from "@/components/ui/card";
 import {
-    Dialog,
-    DialogTrigger,
-    DialogPortal,
-    DialogClose,
-    DialogOverlay,
-    DialogContent
-} from '@/components/ui/dialog'
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+  } from "@/components/ui/carousel"
+  import workList from "@/components/WorkList"
 
-const  Experience = () => {
+const Experience = () => {
     return (
-        <div className="">
+        <div>
+            <h1>Experience</h1>
+            <Carousel>
+                <CarouselContent>
+                {workList.map((workList) => (
+                    <Card key={workList.id}>
+                    </Card>
+                ))}
+                </CarouselContent>
+            </Carousel>
         </div>
     )
 }
