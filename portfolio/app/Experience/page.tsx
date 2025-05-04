@@ -8,6 +8,7 @@ import {
   } from "@/components/ui/carousel"
   import workList from "@/components/WorkList/index"
 import Image from "next/image";
+import qrCode from "@/1-assets/qr-code.png"
 
 const Experience = () => {
     return (
@@ -26,6 +27,8 @@ const Experience = () => {
                 ))}
                 </CarouselContent>
             </Carousel>
+            <h2>See my <a href="https://graham-blundell-cv.tiiny.site/">resume</a> for more</h2>
+            <Image className="w-40" alt="QR Code image for resume" src={qrCode}></Image>
         </div>
     )
 }

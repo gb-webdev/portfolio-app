@@ -2,6 +2,7 @@ import Header from "@/app/Header/page"
 import Links from "@/components/Links"
 import Welcome from "@/app/Welcome/page"
 import Experience from "@/app/Experience/page"
+import MyStack from "@/app/MyStack/page"
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Links />
       <Welcome />
       <Experience />
+      <MyStack />
     </div>
   )
 }
