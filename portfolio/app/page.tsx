@@ -3,6 +3,7 @@ import Links from "@/components/Links"
 import Welcome from "@/app/Welcome/page"
 import Experience from "@/app/Experience/page"
 import MyStack from "@/app/MyStack/page"
+import ProjectPage from "@/app/ProjectPage/page"
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Welcome />
       <Experience />
       <MyStack />
+      <ProjectPage />
     </div>
   )
 }
