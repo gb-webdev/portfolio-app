@@ -7,7 +7,7 @@ export type Projects = {
     longDescription: string
     skills: string[]
     image: StaticImageData
-    gif: string | StaticImageData
+    gif: string
     sourceLink?: string
     backendSource?: string
     frontendSource?: string
