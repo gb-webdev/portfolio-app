@@ -1,4 +1,4 @@
-import Projects from "@/components/Projects/index"
+import projects from "@/components/Projects/index"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import {
@@ -23,7 +23,7 @@ import Image from "next/image"
 const ProjectPage = () => {
     return (
         <div>
-            {Projects.map((projects) => (
+            {projects.map((projects) => (
                 <Card key={projects.id}>
                     <Image className="w-200" alt="Project Image" src={projects.image} />
                     <CardHeader>{projects.title}</CardHeader>

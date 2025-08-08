@@ -7,9 +7,9 @@ export type Projects = {
     longDescription: string
     skills: string[]
     image: StaticImageData
-    gif: string
-    sourceLink: string
-    backendSource: string
-    frontendSource: string
-    liveLink: string
+    gif: string | StaticImageData
+    sourceLink?: string
+    backendSource?: string
+    frontendSource?: string
+    liveLink?: string
 }
