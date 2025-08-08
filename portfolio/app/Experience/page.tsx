@@ -7,7 +7,7 @@ import {
     CarouselPrevious,
   } from "@/components/ui/carousel"
   import workList from "@/components/WorkList/index"
-import Image from "next/image";
+import Image from "next/image"
 import qrCode from "@/1-assets/qr-code.png"
 
 const Experience = () => {
