@@ -1,3 +1,4 @@
+import { Projects } from "@/types/projects"
 import chefStill from "@/1-assets/chef-ss.png"
 import chefGif from "@/1-assets/chefs-choice.gif"
 import bladeBrawlerStill from "@/1-assets/bbss.png"
@@ -9,7 +10,7 @@ import notesGif from "@/1-assets/notes.gif"
 import apartmentStill from "@/1-assets/apss.png"
 import apartmentGif from "@/1-assets/app.gif"
 
-const Projects: Projects[] = [
+const projects: Projects[] = [
     {
         id: 1,
         title: "Chef's Choice",
@@ -66,4 +67,4 @@ const Projects: Projects[] = [
     },
 ]
 
-export default Projects
+export default projects
