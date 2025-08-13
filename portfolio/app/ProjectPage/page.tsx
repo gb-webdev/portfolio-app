@@ -25,15 +25,15 @@ const ProjectPage = () => {
     return (
         <div>
             {projects.map((projects) => (
-                <Card key={projects.id}>
+                <Card key={projects.id} className="m-5 flex justify-center items-center">
                     <Image className="w-200" alt="Project Image" src={projects.image} />
                     <CardHeader>{projects.title}</CardHeader>
                     <CardDescription>{projects.description}</CardDescription>
                     {projects.skills.map((skill) => (
-                        <Badge key={skill} >{skill}</Badge>
+                        <Badge key={skill}>{skill}</Badge>
                     ))}
                         <Dialog>
-                            <Button className="w-fit"><DialogTrigger>See More</DialogTrigger></Button>
+                            <DialogTrigger asChild><Button className="w-fit">See More</Button></DialogTrigger>
                             <DialogContent>
                                 <DialogHeader>
                                     <DialogTitle>{projects.title}</DialogTitle>
@@ -45,7 +45,7 @@ const ProjectPage = () => {
                                     <DialogTitle>Technologies</DialogTitle>
                                     <DialogDescription>
                                         {projects.skills.map((skill) => (
-                                            <Badge key={skill} >{skill}</Badge>
+                                            <Badge key={skill}>{skill}</Badge>
                                         ))}
                                     </DialogDescription>
                                     <DialogDescription>

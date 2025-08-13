@@ -4,6 +4,7 @@ import Welcome from "@/app/Welcome/page"
 import Experience from "@/app/Experience/page"
 import MyStack from "@/app/MyStack/page"
 import ProjectPage from "@/app/ProjectPage/page"
+import Contact from "./Contact/page"
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Experience />
       <MyStack />
       <ProjectPage />
+      <Contact />
     </div>
   )
 }
